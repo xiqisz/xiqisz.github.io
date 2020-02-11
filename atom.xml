@@ -2,12 +2,12 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>熙七</title>
   
-  <subtitle>熙む七</subtitle>
+  <subtitle>熙七のブログ</subtitle>
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://xiqisz.github.io/"/>
+  <link href="https://blog.szly.world/"/>
   <updated>2020-02-09T09:14:42.753Z</updated>
-  <id>http://xiqisz.github.io/</id>
+  <id>https://blog.szly.world/</id>
   
   <author>
     <name>Zhong Sun</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="http://xiqisz.github.io/2020/02/09/hello-world/"/>
-    <id>http://xiqisz.github.io/2020/02/09/hello-world/</id>
+    <link href="https://blog.szly.world/2020/02/09/hello-world/"/>
+    <id>https://blog.szly.world/2020/02/09/hello-world/</id>
     <published>2020-02-09T09:14:42.753Z</published>
     <updated>2020-02-09T09:14:42.753Z</updated>
     
