@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://blog.szly.world/"/>
-  <updated>2020-02-09T09:14:42.753Z</updated>
+  <updated>2020-02-14T09:24:36.655Z</updated>
   <id>https://blog.szly.world/</id>
   
   <author>
@@ -17,11 +17,153 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>个人博客</title>
+    <link href="https://blog.szly.world/2020/02/14/bo-ke-xiang-guan/ge-ren-bo-ke-v1.0/"/>
+    <id>https://blog.szly.world/2020/02/14/bo-ke-xiang-guan/ge-ren-bo-ke-v1.0/</id>
+    <published>2020-02-14T09:13:45.116Z</published>
+    <updated>2020-02-14T09:24:36.655Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;版本记录&quot;&gt;&lt;a href=&quot;#版本记录&quot; class=&quot;headerlink&quot; title=&quot;版本记录&quot;&gt;&lt;/a&gt;版本记录&lt;/h2&gt;&lt;p&gt;+ &lt;/p&gt;
+&lt;script&gt;
+       
+        
+      
+    
+    </summary>
+    
+    
+      <category term="博客相关" scheme="https://blog.szly.world/categories/%E5%8D%9A%E5%AE%A2%E7%9B%B8%E5%85%B3/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Hexo博客主题搭建</title>
+    <link href="https://blog.szly.world/2020/02/13/hexo/hexo-bo-ke-zhu-ti-da-jian/"/>
+    <id>https://blog.szly.world/2020/02/13/hexo/hexo-bo-ke-zhu-ti-da-jian/</id>
+    <published>2020-02-13T04:34:00.000Z</published>
+    <updated>2020-02-14T09:26:19.939Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;&lt;a href=&quot;README.md&quot;&gt;English Document&lt;/a&gt; | &lt;a href=&quot;https://blinkfox.github.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;演示示例&lt;/a&gt;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="Hexo" scheme="https://blog.szly.world/categories/Hexo/"/>
+    
+    
+      <category term="Hexo" scheme="https://blog.szly.world/tags/Hexo/"/>
+    
+      <category term="hexo-theme-matery" scheme="https://blog.szly.world/tags/hexo-theme-matery/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>hexo速度优化</title>
+    <link href="https://blog.szly.world/2020/02/13/hexo/hexo-su-du-you-hua/"/>
+    <id>https://blog.szly.world/2020/02/13/hexo/hexo-su-du-you-hua/</id>
+    <published>2020-02-13T04:34:00.000Z</published>
+    <updated>2020-02-13T11:16:49.799Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h4 id=&quot;1-gulp压缩&quot;&gt;&lt;a href=&quot;#1-gulp压缩&quot; class=&quot;headerlink&quot; title=&quot;1.gulp压缩&quot;&gt;&lt;/a&gt;1.gulp压缩&lt;/h4&gt;&lt;h4 id=&quot;2-Coding部署&quot;&gt;&lt;a href=&quot;#2-Coding部署&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="Hexo" scheme="https://blog.szly.world/categories/Hexo/"/>
+    
+    
+      <category term="Hexo" scheme="https://blog.szly.world/tags/Hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hexo配置Cloudflare CDN</title>
+    <link href="https://blog.szly.world/2020/02/13/hexo/hexo-pei-zhi-cloudflare-cdn/"/>
+    <id>https://blog.szly.world/2020/02/13/hexo/hexo-pei-zhi-cloudflare-cdn/</id>
+    <published>2020-02-13T04:34:00.000Z</published>
+    <updated>2020-02-13T11:16:24.533Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;为了使hexo加速，需要 配置 Cloudflare 免费 CDN&lt;/p&gt;
+&lt;h2 id=&quot;CDN-介绍&quot;&gt;&lt;a href=&quot;#CDN-介绍&quot; class=&quot;headerlink&quot; title=&quot;CDN 介绍&quot;&gt;&lt;/a&gt;CDN
+        
+      
+    
+    </summary>
+    
+    
+      <category term="hexo" scheme="https://blog.szly.world/categories/hexo/"/>
+    
+    
+      <category term="Hexo" scheme="https://blog.szly.world/tags/Hexo/"/>
+    
+      <category term="CDN" scheme="https://blog.szly.world/tags/CDN/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hexo与github搭建博客</title>
+    <link href="https://blog.szly.world/2020/02/13/hexo/hexo-yu-github-da-jian-bo-ke/"/>
+    <id>https://blog.szly.world/2020/02/13/hexo/hexo-yu-github-da-jian-bo-ke/</id>
+    <published>2020-02-12T16:00:00.000Z</published>
+    <updated>2020-02-13T11:16:08.424Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;前言：&quot;&gt;&lt;a href=&quot;#前言：&quot; class=&quot;headerlink&quot; title=&quot;前言：&quot;&gt;&lt;/a&gt;前言：&lt;/h2&gt;&lt;p&gt;​   
+        
+      
+    
+    </summary>
+    
+    
+      <category term="Hexo" scheme="https://blog.szly.world/categories/Hexo/"/>
+    
+    
+      <category term="Hexo" scheme="https://blog.szly.world/tags/Hexo/"/>
+    
+      <category term="hexo-theme-matery" scheme="https://blog.szly.world/tags/hexo-theme-matery/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Hello World</title>
-    <link href="https://blog.szly.world/2020/02/09/hello-world/"/>
-    <id>https://blog.szly.world/2020/02/09/hello-world/</id>
-    <published>2020-02-09T09:14:42.753Z</published>
-    <updated>2020-02-09T09:14:42.753Z</updated>
+    <link href="https://blog.szly.world/2020/02/12/hello-world/"/>
+    <id>https://blog.szly.world/2020/02/12/hello-world/</id>
+    <published>2020-02-12T09:34:00.000Z</published>
+    <updated>2020-02-13T11:13:38.724Z</updated>
     
     <summary type="html">
     
