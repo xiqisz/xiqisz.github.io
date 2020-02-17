@@ -28,9 +28,9 @@ var precacheUrls = [];
 
   precacheUrls.push('/2020/02/13/hexo/hexo-yu-github-da-jian-bo-ke/');
 
-  precacheUrls.push('/2020/02/13/hexo/hexo-bo-ke-zhu-ti-da-jian/');
-
   precacheUrls.push('/2020/02/13/hexo/hexo-su-du-you-hua/');
+
+  precacheUrls.push('/2020/02/13/hexo/hexo-bo-ke-zhu-ti-da-jian/');
 
   precacheUrls.push('/2020/02/13/hexo/hexo-pei-zhi-cloudflare-cdn/');
 
