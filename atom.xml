@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>熙七</title>
   
-  <subtitle>熙七のブログ</subtitle>
+  <subtitle>熙七の</subtitle>
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://blog.szly.world/"/>
@@ -38,6 +38,35 @@
     
       <category term="博客相关" scheme="https://blog.szly.world/categories/%E5%8D%9A%E5%AE%A2%E7%9B%B8%E5%85%B3/"/>
     
+    
+  </entry>
+  
+  <entry>
+    <title>Hexo博客主题搭建</title>
+    <link href="https://blog.szly.world/2020/02/13/hexo/hexo-bo-ke-zhu-ti-da-jian/"/>
+    <id>https://blog.szly.world/2020/02/13/hexo/hexo-bo-ke-zhu-ti-da-jian/</id>
+    <published>2020-02-13T04:34:00.000Z</published>
+    <updated>2020-02-14T09:26:19.939Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="Hexo" scheme="https://blog.szly.world/categories/Hexo/"/>
+    
+    
+      <category term="Hexo" scheme="https://blog.szly.world/tags/Hexo/"/>
+    
+      <category term="hexo-theme-matery" scheme="https://blog.szly.world/tags/hexo-theme-matery/"/>
     
   </entry>
   
@@ -94,35 +123,6 @@
       <category term="Hexo" scheme="https://blog.szly.world/tags/Hexo/"/>
     
       <category term="CDN" scheme="https://blog.szly.world/tags/CDN/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Hexo博客主题搭建</title>
-    <link href="https://blog.szly.world/2020/02/13/hexo/hexo-bo-ke-zhu-ti-da-jian/"/>
-    <id>https://blog.szly.world/2020/02/13/hexo/hexo-bo-ke-zhu-ti-da-jian/</id>
-    <published>2020-02-13T04:34:00.000Z</published>
-    <updated>2020-02-14T09:26:19.939Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot;
-        
-      
-    
-    </summary>
-    
-    
-      <category term="Hexo" scheme="https://blog.szly.world/categories/Hexo/"/>
-    
-    
-      <category term="Hexo" scheme="https://blog.szly.world/tags/Hexo/"/>
-    
-      <category term="hexo-theme-matery" scheme="https://blog.szly.world/tags/hexo-theme-matery/"/>
     
   </entry>
   
