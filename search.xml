@@ -23,6 +23,33 @@
     
     
     <entry>
+      <title>Hexo配置Cloudflare CDN</title>
+      <link href="/2020/02/13/hexo/hexo-pei-zhi-cloudflare-cdn/"/>
+      <url>/2020/02/13/hexo/hexo-pei-zhi-cloudflare-cdn/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>为了使hexo加速，需要 配置 Cloudflare 免费 CDN</p><h2 id="CDN-介绍"><a href="#CDN-介绍" class="headerlink" title="CDN 介绍"></a>CDN 介绍</h2><blockquote><p>内容分发网络（Content delivery network 或 Content distribution network，缩写：CDN）是指一种透过互联网互相连接的计算机网络系统，利用最靠近每位用户的服务器，更快、更可靠地将音乐、图片、影片、应用程序及其他文件发送给用户，来提供高性能、可扩展性及低成本的网络内容传递给用户。</p></blockquote><p>简单来说，CDN 就是部署在世界各地的缓存服务器，它们会提前缓存网站上的资源，然后当用户想要访问相关资源时，直接从 CDN 服务器上取就可以了。这样不仅可以增加访问速度减少访问延迟，还可以减缓网站服务器上的压力。</p><h2 id="为什么选择-Cloudflare？"><a href="#为什么选择-Cloudflare？" class="headerlink" title="为什么选择 Cloudflare？"></a>为什么选择 Cloudflare？</h2><p>国内的 CDN 服务提供商有不少，但是基本都需要备案，因此我转向了 Cloudflare 这个国外的 CDN 服务提供商。</p><p>Cloudflare 是全球最大的 DNS 服务提供商之一。除此之外他们还提供 CDN、SSL 证书、DDos 保护等服务，并且 Cloudflare 与百度有合作，在国内也部署有大量的节点，还能顺便解决百度爬无法抓取 GitHub Pages 的问题。</p><p>参考网址：</p><p>​    <a href="https://tding.top/archives/12c6c559/" target="_blank" rel="noopener">https://tding.top/archives/12c6c559/</a></p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+      
+      
+      <categories>
+          
+          <category> hexo </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Hexo </tag>
+            
+            <tag> CDN </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>hexo速度优化</title>
       <link href="/2020/02/13/hexo/hexo-su-du-you-hua/"/>
       <url>/2020/02/13/hexo/hexo-su-du-you-hua/</url>
@@ -67,33 +94,6 @@
             <tag> Hexo </tag>
             
             <tag> hexo-theme-matery </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>Hexo配置Cloudflare CDN</title>
-      <link href="/2020/02/13/hexo/hexo-pei-zhi-cloudflare-cdn/"/>
-      <url>/2020/02/13/hexo/hexo-pei-zhi-cloudflare-cdn/</url>
-      
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>为了使hexo加速，需要 配置 Cloudflare 免费 CDN</p><h2 id="CDN-介绍"><a href="#CDN-介绍" class="headerlink" title="CDN 介绍"></a>CDN 介绍</h2><blockquote><p>内容分发网络（Content delivery network 或 Content distribution network，缩写：CDN）是指一种透过互联网互相连接的计算机网络系统，利用最靠近每位用户的服务器，更快、更可靠地将音乐、图片、影片、应用程序及其他文件发送给用户，来提供高性能、可扩展性及低成本的网络内容传递给用户。</p></blockquote><p>简单来说，CDN 就是部署在世界各地的缓存服务器，它们会提前缓存网站上的资源，然后当用户想要访问相关资源时，直接从 CDN 服务器上取就可以了。这样不仅可以增加访问速度减少访问延迟，还可以减缓网站服务器上的压力。</p><h2 id="为什么选择-Cloudflare？"><a href="#为什么选择-Cloudflare？" class="headerlink" title="为什么选择 Cloudflare？"></a>为什么选择 Cloudflare？</h2><p>国内的 CDN 服务提供商有不少，但是基本都需要备案，因此我转向了 Cloudflare 这个国外的 CDN 服务提供商。</p><p>Cloudflare 是全球最大的 DNS 服务提供商之一。除此之外他们还提供 CDN、SSL 证书、DDos 保护等服务，并且 Cloudflare 与百度有合作，在国内也部署有大量的节点，还能顺便解决百度爬无法抓取 GitHub Pages 的问题。</p><p>参考网址：</p><p>​    <a href="https://tding.top/archives/12c6c559/" target="_blank" rel="noopener">https://tding.top/archives/12c6c559/</a></p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
-      
-      
-      <categories>
-          
-          <category> hexo </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> Hexo </tag>
-            
-            <tag> CDN </tag>
             
         </tags>
       
