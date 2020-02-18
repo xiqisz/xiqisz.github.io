@@ -28,13 +28,13 @@ var precacheUrls = [];
 
   precacheUrls.push('/2020/02/13/hexo/hexo-pei-zhi-cloudflare-cdn/');
 
-  precacheUrls.push('/2020/02/14/bo-ke-xiang-guan/ge-ren-bo-ke-v1.0/');
-
-  precacheUrls.push('/2020/02/13/hexo/hexo-su-du-you-hua/');
-
   precacheUrls.push('/2020/02/13/hexo/hexo-bo-ke-zhu-ti-da-jian/');
 
   precacheUrls.push('/2020/02/13/hexo/hexo-yu-github-da-jian-bo-ke/');
+
+  precacheUrls.push('/2020/02/13/hexo/hexo-su-du-you-hua/');
+
+  precacheUrls.push('/2020/02/14/bo-ke-xiang-guan/ge-ren-bo-ke-v1.0/');
 
 toolbox.precache(precacheUrls);
 toolbox.options = {"networkTimeoutSeconds":30};

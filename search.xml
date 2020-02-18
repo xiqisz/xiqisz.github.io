@@ -50,31 +50,6 @@
     
     
     <entry>
-      <title>hexo速度优化</title>
-      <link href="/2020/02/13/hexo/hexo-su-du-you-hua/"/>
-      <url>/2020/02/13/hexo/hexo-su-du-you-hua/</url>
-      
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h4 id="1-gulp压缩"><a href="#1-gulp压缩" class="headerlink" title="1.gulp压缩"></a>1.gulp压缩</h4><h4 id="2-Coding部署"><a href="#2-Coding部署" class="headerlink" title="2.Coding部署"></a>2.Coding部署</h4><h4 id="3-InstantClick"><a href="#3-InstantClick" class="headerlink" title="3.InstantClick"></a>3.InstantClick</h4><p>​    试过但是会和别的冲突，果断抛弃</p><h4 id="4-hexo-插件"><a href="#4-hexo-插件" class="headerlink" title="4.hexo 插件"></a>4.hexo 插件</h4><h5 id="hexo-service-worker"><a href="#hexo-service-worker" class="headerlink" title="hexo-service-worker"></a><a href="https://github.com/zoumiaojiang/hexo-service-worker" target="_blank" rel="noopener">hexo-service-worker</a></h5><p>先在站点文件夹根目录安装：</p><pre><code>~/myblog $ npm install hexo-service-worker --save</code></pre><p>然后在站点配置文件中配置：</p><pre><code># offline config passed to sw-precache.service_worker:  maximumFileSizeToCacheInBytes: 5242880  staticFileGlobs:  - public/**/*.{js,html,css,png,jpg,gif,svg,eot,ttf,woff,woff2}  stripPrefix: public  verbose: true</code></pre><p>1）<code>staticFileGlobs</code> 是首次加载时主动缓存的文件，我给出的是所有的文件，当然可以自行修改。</p><p>​        hexo g<code>之后去</code>~/myblog/public/` 目录下查看生成的文件，需要主动缓存则加上。</p><p>2）要使用 Service Worker 博客必须 HTTPS。</p><p>3）更多说明请查看 GitHub 上的 <a href="https://github.com/zoumiaojiang/hexo-service-worker#用法" target="_blank" rel="noopener">README</a>。</p><h5 id="对于插件hexo-filter-optimize"><a href="#对于插件hexo-filter-optimize" class="headerlink" title="对于插件hexo-filter-optimize"></a>对于插件<a href="https://github.com/theme-next/hexo-filter-optimize" target="_blank" rel="noopener">hexo-filter-optimize</a></h5><p>我试了一下发现加上后速度还不如之前的，而且有些功能有问题。</p><h4 id="5-PWA"><a href="#5-PWA" class="headerlink" title="5.PWA"></a>5.PWA</h4><p>​    <a href="https://yafine-blog.cn/posts/d0e9.html（已经完成）" target="_blank" rel="noopener">https://yafine-blog.cn/posts/d0e9.html（已经完成）</a></p><h4 id="6-CDN"><a href="#6-CDN" class="headerlink" title="6.CDN"></a>6.CDN</h4><p>6.1 直接利用github上的</p><p>​    <a href="https://yafine-blog.cn/posts/4ab2.html" target="_blank" rel="noopener">https://yafine-blog.cn/posts/4ab2.html</a> （初步完成）</p><p>6.2 利用对象存储+CDN(这里选择腾讯云的)</p><p>​    <a href="https://blog.sky03.cn/posts/1663.html#toc-heading-1" target="_blank" rel="noopener">https://blog.sky03.cn/posts/1663.html#toc-heading-1</a> （域名备案中）</p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
-      
-      
-      <categories>
-          
-          <category> Hexo </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> Hexo </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>Hexo博客主题搭建</title>
       <link href="/2020/02/13/hexo/hexo-bo-ke-zhu-ti-da-jian/"/>
       <url>/2020/02/13/hexo/hexo-bo-ke-zhu-ti-da-jian/</url>
@@ -94,6 +69,31 @@
             <tag> Hexo </tag>
             
             <tag> hexo-theme-matery </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>hexo速度优化</title>
+      <link href="/2020/02/13/hexo/hexo-su-du-you-hua/"/>
+      <url>/2020/02/13/hexo/hexo-su-du-you-hua/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h4 id="1-gulp压缩"><a href="#1-gulp压缩" class="headerlink" title="1.gulp压缩"></a>1.gulp压缩</h4><h4 id="2-Coding部署"><a href="#2-Coding部署" class="headerlink" title="2.Coding部署"></a>2.Coding部署</h4><h4 id="3-InstantClick"><a href="#3-InstantClick" class="headerlink" title="3.InstantClick"></a>3.InstantClick</h4><p>​    试过但是会和别的冲突，果断抛弃</p><h4 id="4-hexo-插件"><a href="#4-hexo-插件" class="headerlink" title="4.hexo 插件"></a>4.hexo 插件</h4><h5 id="hexo-service-worker"><a href="#hexo-service-worker" class="headerlink" title="hexo-service-worker"></a><a href="https://github.com/zoumiaojiang/hexo-service-worker" target="_blank" rel="noopener">hexo-service-worker</a></h5><p>先在站点文件夹根目录安装：</p><pre><code>~/myblog $ npm install hexo-service-worker --save</code></pre><p>然后在站点配置文件中配置：</p><pre><code># offline config passed to sw-precache.service_worker:  maximumFileSizeToCacheInBytes: 5242880  staticFileGlobs:  - public/**/*.{js,html,css,png,jpg,gif,svg,eot,ttf,woff,woff2}  stripPrefix: public  verbose: true</code></pre><p>1）<code>staticFileGlobs</code> 是首次加载时主动缓存的文件，我给出的是所有的文件，当然可以自行修改。</p><p>​        hexo g<code>之后去</code>~/myblog/public/` 目录下查看生成的文件，需要主动缓存则加上。</p><p>2）要使用 Service Worker 博客必须 HTTPS。</p><p>3）更多说明请查看 GitHub 上的 <a href="https://github.com/zoumiaojiang/hexo-service-worker#用法" target="_blank" rel="noopener">README</a>。</p><h5 id="对于插件hexo-filter-optimize"><a href="#对于插件hexo-filter-optimize" class="headerlink" title="对于插件hexo-filter-optimize"></a>对于插件<a href="https://github.com/theme-next/hexo-filter-optimize" target="_blank" rel="noopener">hexo-filter-optimize</a></h5><p>我试了一下发现加上后速度还不如之前的，而且有些功能有问题。</p><h4 id="5-PWA"><a href="#5-PWA" class="headerlink" title="5.PWA"></a>5.PWA</h4><p>​    <a href="https://yafine-blog.cn/posts/d0e9.html（已经完成）" target="_blank" rel="noopener">https://yafine-blog.cn/posts/d0e9.html（已经完成）</a></p><h4 id="6-CDN"><a href="#6-CDN" class="headerlink" title="6.CDN"></a>6.CDN</h4><p>6.1 直接利用github上的</p><p>​    <a href="https://yafine-blog.cn/posts/4ab2.html" target="_blank" rel="noopener">https://yafine-blog.cn/posts/4ab2.html</a> （初步完成）</p><p>6.2 利用对象存储+CDN(这里选择腾讯云的)</p><p>​    <a href="https://blog.sky03.cn/posts/1663.html#toc-heading-1" target="_blank" rel="noopener">https://blog.sky03.cn/posts/1663.html#toc-heading-1</a> （域名备案中）</p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+      
+      
+      <categories>
+          
+          <category> Hexo </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Hexo </tag>
             
         </tags>
       

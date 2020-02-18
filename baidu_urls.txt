@@ -1,6 +1,6 @@
 https://blog.szly.world/2020/02/14/bo-ke-xiang-guan/ge-ren-bo-ke-v1.0/
 https://blog.szly.world/2020/02/13/hexo/hexo-pei-zhi-cloudflare-cdn/
-https://blog.szly.world/2020/02/13/hexo/hexo-su-du-you-hua/
 https://blog.szly.world/2020/02/13/hexo/hexo-bo-ke-zhu-ti-da-jian/
+https://blog.szly.world/2020/02/13/hexo/hexo-su-du-you-hua/
 https://blog.szly.world/2020/02/13/hexo/hexo-yu-github-da-jian-bo-ke/
 https://blog.szly.world/2020/02/12/hello-world/
